@@ -1,0 +1,296 @@
+* {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: "Open Sans", sans-serif;
+}
+
+:root {
+    /* variaveis */
+    --cor-principal: #053f53;
+    --cor-secundaria: #316047;
+    --cor-terciaria: #7fc384;
+    --cor-sombra: #058475;
+    --cor-contraste: #a0e9d6;
+    --fonte-titulo: "Outfit", sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    font-size: 1.6rem;
+    background-color: var(--cor-principal);
+}
+
+.navbar button {
+    font-size: 3rem;
+}
+
+.navbar button:hover {
+    background-color: var(--cor-sombra);
+}
+.links-nav a {
+    font-size: 2.0rem;
+    border-radius: 20px;
+    width: 15rem;
+    text-align: center;
+    font-family: var(--fonte-titulo);
+    color: #000;
+}
+
+
+.links-nav a:hover {
+    background-color: var(--cor-sombra);
+    color: #fff;
+    border-radius: 20px;
+}
+
+
+.nav-cor {
+    background-color: var(--cor-contraste);
+}
+
+.logo {
+    width: 6vw;
+}
+
+@media (max-width: 768px) {
+    .logo {
+        width: 15vw;
+    }
+}
+
+.logo-txt {
+    font-size: 3.0rem;
+}
+
+.banner {
+    width: 100%;
+    height: 70vh;
+    background-image: url(../images/logos-e-banners/banner-iara-games.webp);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: 40% 50%;
+    overflow: hidden;
+}
+
+.banner-conteudo {
+    width: 100%;
+    margin: 0;
+    position: relative;
+    top: 30px;
+}
+
+.container-banner-text {
+    min-width: 25%;
+    max-width: 40%;
+    height: 100%;
+    text-wrap: wrap;
+    text-overflow: ellipsis;
+    padding: 1.5rem;
+    background-color:rgba(49, 96, 71, 0.8);
+    color: #fff;
+    border-radius: 30px;
+}
+
+.container-banner-text a {
+    min-width: 10vw;
+    height: 3rem;
+    font-size: 1.5rem;
+    border: 2px solid var(--cor-contraste);
+    border-radius: 25px;
+    background-color: var(--cor-principal);
+    color: #fff;
+}
+
+.container-banner-text a:hover {
+    background-color: var(--cor-sombra);
+    color: #fff;
+    border: solid 2px var(--cor-contraste)
+}
+
+@media (max-width: 768px) {
+    .container-banner-text {
+        display: none;
+    }
+}
+
+
+.cards-container-title {
+    color: #fff;
+    font-family: var(--fonte-titulo);
+    font-size: 2.4rem;
+    text-align: center;
+    padding: 10% 0;
+    margin: 5% auto;
+}
+
+.row {
+    max-width: 100%;
+}
+
+.cards-container {
+    background-color: var(--cor-terciaria);
+    
+    padding: 10% 0;
+}
+
+.meu-card {
+    background-color: var(--cor-secundaria);
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    color: #fff;
+    box-shadow: 8px 5px 5px var(--cor-sombra);
+    max-width: 30%;
+    min-width: 30%;
+    height: 100%;
+    border-radius: 25px;
+    text-align: center;
+}
+
+@media (max-width: 1300px) {
+    .meu-card {
+        max-width: 85%;
+    }
+}
+
+.card-img-container {
+    max-height: 50%;
+    position: relative;
+}
+
+.card-img-container img {
+    border-radius: 30px;
+    min-width: 100%;
+    min-height: 40%;
+    max-height: 40%;
+    padding: 2rem 1rem;
+}
+
+.preco {
+    position: absolute;
+    bottom: 20px;
+    right: 9px;
+    background-color: rgba(160, 233, 214, 0.7);
+    color: black;
+    border: 1px solid var(--cor-principal);
+    padding: 4px 20px;
+    border-radius: 15px 0 15px 0;
+    font-size: 1.8rem;
+    font-weight: 600;
+}
+
+.card-desc-container {
+    max-height: 50%;
+}
+
+.card-desc-container h3 {
+    font-size: 3rem;
+    font-family: var(--fonte-titulo);
+    margin: 0 10%;
+}
+
+.card-desc-container p {
+    font-size: 1.8rem;
+    margin: 10%;
+    text-align: left;
+    text-overflow: clip;
+}
+
+.card-link {
+    font-size: 3rem;
+    padding: 1.3rem 2.6rem;
+    background-color: var(--cor-principal);
+    color: #fff;
+    border: 2px solid var(--cor-contraste);
+    border-radius: 25px;
+    text-decoration: none;
+}
+
+.btn {
+    margin-top: auto;
+}
+
+.card-link:hover {
+    background-color: var(--cor-sombra);
+    color: #000;
+}
+
+@media (max-width: 350px) {
+    .card-link {
+        font-size: 1.5rem;
+    }
+}
+
+.cards-body {
+    width: 100%;
+}
+
+
+.rodape {
+    width: 100%;
+    height: 10vh;
+    text-align: center;
+    padding: 5% 0;
+    margin-top: 10%;
+    color: #000;
+    background-color: var(--cor-contraste);
+    border-top: 5px solid var(--cor-sombra);
+    box-shadow: 0 -5px 5px var(--cor-sombra);
+}
+
+.rodape h2 {
+    font-family: var(--fonte-titulo);
+}
+
+
+
+/* página sobre */
+
+
+ul {
+    list-style: none;
+}
+
+.sobre-titulo {
+    font-family: var(--fonte-titulo);
+    font-size: 3.6rem;
+    padding: 5% 0;
+}
+
+.sobre-texto {
+    background-color: var(--cor-secundaria);
+    color: #fff;
+    padding: 5% 15%;
+    border-radius: 25px;
+    border: 5px solid var(--cor-terciaria);
+    box-shadow: 10px 6px 5px var(--cor-sombra);
+}
+
+.redes {
+    background-color: var(--cor-terciaria);
+    box-shadow: 10px 6px 5px var(--cor-sombra);
+    height: 10%;
+    margin-bottom: 10%;
+    padding: 5% 0;
+    border-radius: 20px;
+}
+
+.redes a {
+    background-color:var(--cor-secundaria) ;
+    color: #fff;
+    font-size: 2.4rem;
+    width: 20%;
+    padding: 10px 10px;
+    height: 1.6rem;
+    border-radius: 20px;
+    text-decoration: none;
+}
+
+.redes a:hover {
+    background-color: var(--cor-sombra);
+}
