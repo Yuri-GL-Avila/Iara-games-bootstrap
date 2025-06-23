@@ -70,9 +70,16 @@
         <div class="banner-conteudo container-fluid d-flex justify-content-end">
             <div class="container-banner-text text-center">
                 <h2>Games com a essência brasileira!</h2>
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur placeat quos optio iste.Officiis corporis nostrum quos debitis dolorum laborum molestias, autem, beatae maxime dignissimosnemo neque et reiciendis dolore!</p>
-                <a href="" class="btn text-center">Saiba Mais</a>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consectetur placeat quos optio iste.Officiis
+                    corporis nostrum quos debitis dolorum laborum molestias, autem, beatae maxime dignissimosnemo neque
+                    et reiciendis dolore!</p>
+                <p id="texto-extra" class="extra-texto"> ...E mais! Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Voluptates minus ipsam facere cumque consequatur laborum fuga incidunt iure. Ipsa atque
+                    voluptatibus dicta soluta perferendis ad.</p>
+                <a href="#" class="btn text-center" id="banner-btn">Mostrar Mais</a>
             </div>
+
+
         </div>
     </section>
 
@@ -87,7 +94,7 @@
         </div>
 
         <section class="container-fluid cards-container">
-            <div class="row d-flex justify-content-evenly">
+            <div class="row d-flex align-items-stretch justify-content-evenly">
                 <article class="col-md-6 col-lg-4 my-2 mx-4 meu-card">
                     <div class="card-img-container">
                         <img src="./assets/images/capas/momodora.jpg" alt="capa do jogo Momodora" class="img-fluid">
@@ -95,8 +102,10 @@
                     </div>
                     <div class="card-desc-container d-flex flex-column py-4 my-4">
                         <h3>Momodora: Reverie Under the Moonlight</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime sint doloribus tempore qui in velit!</p>
-                        <a href="#" class="btn card-link">Acesse a Página</a>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Maxime sint doloribus tempore qui
+                            in velit!</p>
+                        <a href="#" class="btn card-link abrir-modal"
+                            data-jogo="Momodora: Reverie Under the Moonlight">Conheça o Jogo</a>
                     </div>
                 </article>
                 <article class="col-md-6 col-lg-4 my-2 mx-4 meu-card">
@@ -104,21 +113,26 @@
                         <img src="./assets/images/capas/dandara.jpg" alt="capa do jogo Dandara" class="img-fluid">
                         <span class="preco">R$0,00</span>
                     </div>
-                    <div class="card-desc-container d-flex flex-column py-4 my-4"> 
+                    <div class="card-desc-container d-flex flex-column py-4 my-4">
                         <h3>Dandara: Trials of Fear Edition</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, sed ullam. Consequatur non adipisci veritatis?</p>
-                        <a href="#" class="btn card-link">Acesse a Página</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorem, sed ullam. Consequatur non
+                            adipisci veritatis?</p>
+                        <a href="#" class="btn card-link abrir-modal"
+                            data-jogo="Dandara: Trials of Fear Edition">Conheça o Jogo</a>
                     </div>
                 </article>
                 <article class="col-md-6 col-lg-4 my-2 mx-4 meu-card">
                     <div class="card-img-container">
-                        <img src="./assets/images/capas/super-chicken.jpg" alt="capa do jogo Super Chicken Jumper" class="img-fluid">
+                        <img src="./assets/images/capas/super-chicken.jpg" alt="capa do jogo Super Chicken Jumper"
+                            class="img-fluid">
                         <span class="preco">R$0,00</span>
                     </div>
                     <div class="card-desc-container d-flex flex-column align-self-start gap-4 py-4 my-4">
                         <h3>Super Chicken Jumper</h3>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ad vero omnis, maiores laboriosam nihil.</p>
-                        <a href="#" class="btn card-link">Acesse a Página</a>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio ad vero omnis, maiores
+                            laboriosam nihil.</p>
+                        <a href="#" class="btn card-link abrir-modal" data-jogo="Super Chicken Jumper">Conheça o
+                            Jogo</a>
                     </div>
                 </article>
             </div>
@@ -129,7 +143,7 @@
         </div>
 
         <section class="container-fluid cards-container">
-            <div class="row  d-flex justify-content-evenly">
+            <div class="row  d-flex align-items-stretch justify-content-evenly">
                 <article class="col-md-6 col-lg-4 my-2 mx-4 meu-card">
                     <div class="card-img-container">
                         <img src="./assets/images/capas/asleep.jpg" alt="capa do jogo Asleep" class="img-fluid">
@@ -137,19 +151,22 @@
                     </div>
                     <div class="card-desc-container d-flex flex-column py-4 my-4">
                         <h3>Asleep</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero suscipit autem accusantium reprehenderit, impedit in!</p>
-                        <a href="#" class="btn card-link">Acesse a Página</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Libero suscipit autem accusantium
+                            reprehenderit, impedit in!</p>
+                        <a href="#" class="btn card-link abrir-modal" data-jogo="Asleep">Conheça o Jogo</a>
                     </div>
                 </article>
                 <article class="col-md-6 col-lg-4 my-2 mx-4 meu-card">
                     <div class="card-img-container">
-                        <img src="./assets/images/capas/mullet-madjack.jpg" alt="capa do jogo Mullet Madjack" class="img-fluid">
+                        <img src="./assets/images/capas/mullet-madjack.jpg" alt="capa do jogo Mullet Madjack"
+                            class="img-fluid">
                         <span class="preco">R$0,00</span>
                     </div>
                     <div class="card-desc-container d-flex flex-column py-4 my-4">
                         <h3>Mullet Madjack</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi mollitia enim alias totam, saepe molestiae.</p>
-                        <a href="#" class="btn card-link">Acesse a Página</a>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Eligendi mollitia enim alias totam,
+                            saepe molestiae.</p>
+                        <a href="#" class="btn card-link abrir-modal" data-jogo="Mullet Madjack">Conheça o Jogo</a>
                     </div>
                 </article>
                 <article class="col-md-6 col-lg-4 my-2 mx-4 meu-card">
@@ -159,8 +176,10 @@
                     </div>
                     <div class="card-desc-container d-flex flex-column py-4 my-4">
                         <h3>Kaze and the Wild Masks</h3>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam natus delectus molestias eos, quod aliquam.</p>
-                        <a href="#" class="btn card-link">Acesse a Página</a>
+                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quisquam natus delectus molestias
+                            eos, quod aliquam.</p>
+                        <a href="#" class="btn card-link abrir-modal" data-jogo="Kaze and the Wild Masks">Conheça o
+                            Jogo</a>
                     </div>
                 </article>
             </div>
@@ -168,13 +187,59 @@
     </main>
 
     <footer class="rodape">
-        <h2>Aluno: Yuri Guerreiro Lopes de Avila  |  RM: 563361</h2>
+        <h2>Aluno: Yuri Guerreiro Lopes de Avila | RM: 563361</h2>
     </footer>
 
+    <!-- modal para os cards -->
+    <section class="modal" id="modal">
+        <div class="modal-content">
+            <span class="fechar-modal">&times;</span>
+            <h2 id="modal-titulo">Título do Jogo</h2>
+            <div id="modal-carousel" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#modal-carousel" data-bs-slide-to="0"
+                        class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#modal-carousel" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#modal-carousel" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="https://placehold.co/400" class="d-block w-100 img-fluid" alt="imagem placeholder do jogo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://placehold.co/600x400" class="d-block w-100 img-fluid" alt="imagem placeholder do jogo">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="https://placehold.co/250x300" class="d-block w-100 img-fluid" alt="imagem placeholder do jogo">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#modal-carousel"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#modal-carousel"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Recusandae repellendus aut nostrum laudantium
+                sit perferendis incidunt tempora, libero asperiores debitis, molestiae reiciendis dolore quasi inventore
+                similique ducimus excepturi soluta autem.</p>
+            <h3>Desenvolvedor:</h3>
+            <h3>Distribuidora:</h3>
+            <a href="#" class="btn-ir">Ir para a página do jogo</a>
+        </div>
+    </section>
+    <!-- modal para os cards -->
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.6/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-j1CDi7MgGQ12Z7Qab0qlWQ/Qqz24Gc6BM0thvEMVjHnfYGF0rmFCozFSxQBxwHKO" crossorigin="anonymous">
         </script>
+    <script src="./assets/JS/home.js"></script>
 </body>
 
 </html>
